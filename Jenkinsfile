@@ -1,24 +1,34 @@
+groovy
+CopyEdit
 pipeline {
     agent any
 
     stages {
-        stage('Clone') {
+        stage('Checkout') {
             steps {
                 git 'https://github.com/Blaszczykowske/Test1.git'
             }
         }
-        stage('Build') {
+
+        stage('Set up virtualenv') {
             steps {
-                echo 'Building the project...'
-                // Add commands if needed
+                sh 'python -m venv venv'
+                sh './venv/bin/pip install --upgrade pip'
+                sh './venv/bin/pip install -r requirements.txt || true'
             }
         }
-        stage('Test') {
+
+        stage('Run Script') {
             steps {
-                echo 'Running tests...'
-                // Example: sh 'pytest'
+                sh './venv/bin/JustChecking.py'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh './venv/bin/pip install pytest'
+                sh './venv/bin/pytest --junitxml=results.xml || true'
             }
         }
     }
 }
-
