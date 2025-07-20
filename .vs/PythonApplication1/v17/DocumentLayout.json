@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dhiman\\Desktop\\Projects\\Test1\\PythonApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{335E244D-3684-4B1E-B9B1-4F3548981F71}|PythonApplication1.pyproj|C:\\Users\\Dhiman\\Desktop\\Projects\\Test1\\PythonApplication1\\TestJustChecking.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{335E244D-3684-4B1E-B9B1-4F3548981F71}|PythonApplication1.pyproj|solutionrelative:TestJustChecking.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{335E244D-3684-4B1E-B9B1-4F3548981F71}|PythonApplication1.pyproj|C:\\Users\\Dhiman\\Desktop\\Projects\\Test1\\PythonApplication1\\JustChecking.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{335E244D-3684-4B1E-B9B1-4F3548981F71}|PythonApplication1.pyproj|solutionrelative:JustChecking.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestJustChecking.py",
+              "DocumentMoniker": "C:\\Users\\Dhiman\\Desktop\\Projects\\Test1\\PythonApplication1\\TestJustChecking.py",
+              "RelativeDocumentMoniker": "TestJustChecking.py",
+              "ToolTip": "C:\\Users\\Dhiman\\Desktop\\Projects\\Test1\\PythonApplication1\\TestJustChecking.py",
+              "RelativeToolTip": "TestJustChecking.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-07-18T13:05:24.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JustChecking.py",
+              "DocumentMoniker": "C:\\Users\\Dhiman\\Desktop\\Projects\\Test1\\PythonApplication1\\JustChecking.py",
+              "RelativeDocumentMoniker": "JustChecking.py",
+              "ToolTip": "C:\\Users\\Dhiman\\Desktop\\Projects\\Test1\\PythonApplication1\\JustChecking.py",
+              "RelativeToolTip": "JustChecking.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-07-18T13:03:09.847Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
